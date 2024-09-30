@@ -1,0 +1,32 @@
+.wrapper3 {
+    width: 900px;
+    margin: auto;
+    height: 120vh;
+}
+
+.content6 {
+    display: flex;
+    margin-bottom: 50px;
+    line-height: 28px;
+}
+
+.content5 {
+    display: flex;
+    line-height: 28px;
+}
+
+.top1 {
+    width: 400px;
+    height: 300px;
+    margin-top: -40px;
+}
+
+.top2 {
+    width: 400px;
+    height: 300px;
+    margin-top: -55px;
+}
+
+.h1 {
+    text-align: center;
+}

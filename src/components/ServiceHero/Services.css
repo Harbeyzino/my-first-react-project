@@ -1,0 +1,35 @@
+.wrapper5 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    height: 110vh;
+    margin-top: -100px;
+}
+
+.content-container1 {
+    width: 420px;
+}
+
+.content-container1 button{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #F9BC6E;
+}
+
+.img7 {
+    width: 350px;
+    height: 400px;
+}
+
+.wave7{
+    position: absolute;
+    width: 1350px;
+    height: 350px;
+    bottom: 0;
+    z-index: -1;
+}

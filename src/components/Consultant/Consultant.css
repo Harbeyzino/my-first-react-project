@@ -1,0 +1,73 @@
+.free-meeting-container {
+    background-color: #f5a654;
+    padding: 150px 120px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .free-meeting-content {
+    max-width: 600px;
+  }
+
+  .img {
+    height: 200px;
+  }
+  
+  .text {
+    font-size: 30px;
+    color: white;
+    width: 1200px;
+    height: 156px;
+    text-align: start;
+  }
+
+  h2 {
+    text-align: start;
+    margin-top: -5px;
+  }
+  
+  .image {
+    width: 100px;
+    height: 6px;
+  }
+
+  .free-meeting-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 600px;
+    height: 156px;
+    margin-right: 100px;
+    margin-top: 32px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    width: 400px;
+    height: 40px;
+  }
+  
+  .meeting-button {
+    padding: 10px 20px;
+    background-color: #94693c;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    width: 420px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .meeting-button:hover {
+    background-color: #ebb379;
+  }
+  

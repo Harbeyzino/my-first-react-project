@@ -1,0 +1,25 @@
+.wrapper4 {
+    display: flex;
+    margin-left: 150px;
+    position: relative;
+    height: 100vh;
+}
+
+.content-container {
+    width: 500px;
+    margin-top: 150px;
+}
+
+.img1 {
+    width: 450px;
+    height: 550px;
+}
+
+.wave {
+    position: absolute;
+    width: 1500px;
+    height: 400px;
+    right: 2px;
+    bottom: 0;
+    z-index: -1;
+}

@@ -1,0 +1,124 @@
+.container1 {
+    height: 200vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 90px;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 150px;
+}
+
+
+
+.Test01 {
+    width: 242px;
+    height: 200px;
+}
+.icon01 {
+    position: absolute;
+    top: -80px;
+    left: -0px;
+    width: 100px;
+    height: 100px;
+}
+
+.icon02 {
+    position: absolute;
+    top: -80px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.Test02 {
+    width: 242px;
+    height: 200px;
+}
+
+.content-text {
+    width: 450px;
+    text-align: justify; 
+}
+
+.content-text h3 {
+    font-size: 32px;
+}
+
+.content-text h3::after {
+    content: "";
+    display: flex;
+    width: 70px;
+    height: 2px;
+    background-color: #f5a654;
+    margin-top: 20px;
+}
+
+.content1 {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 850px;
+    height: 300px;
+    z-index: 3;
+    bottom: 70%;
+    box-shadow: -10px 25px 8px 25px rgba(0, 0, 0, 0.3);
+
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    margin-left: 300px;
+    width: 850px;
+    height: 300px;
+    z-index: 2;
+    top: 30%;
+    box-shadow: -10px 25px 8px 25px rgba(107, 106, 106, 0.582);
+
+}
+.content3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    /* margin-left: 300px; */
+    width: 850px;
+    height: 300px;
+    z-index: 1;
+    top: 53.63%;
+    box-shadow: -10px 25px 8px 25px rgba(0, 0, 0, 0.3);
+
+}
+.content4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    margin-left: 300px;
+    width: 850px;
+    height: 300px;
+    z-index: 0;
+    top: 77.21%;
+    box-shadow: -10px 50px 20px 25px rgba(0, 0, 0, 0.3);
+
+}
+
+.h {
+    text-align: center;
+    margin-top: -70px;
+    font-size: 40px;
+}
+
+.h::after {
+    content: "";
+    display: flex;
+    width: 50px;
+    height: 2px;
+    background-color: #f5a654;
+    margin-left: 560px;
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.container9 {
+    background-color: #fcae53;
+    padding: 90px 0;
+    text-align: center;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading9 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .text9 {
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .text09 {
+    width: 1000px;
+  }
+  

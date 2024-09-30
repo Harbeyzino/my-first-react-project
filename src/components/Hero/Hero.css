@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 115vh;
+    margin-bottom: 50px;
+}
+
+.content {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.img{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: -70px;
+    margin-bottom: -35px;
+}
+
+.socialMedia{
+    position: absolute;
+    right: 30px;
+    width: 600px;
+    height: 800px;
+    z-index: 2;
+}
+
+.group {
+    width: 200px;
+    height: 30px;
+ 
+}
+
+.saas {
+    width: 187px;
+    height: 50px;
+}
+
+.fiverr {
+    width: 160px;
+    height: 80px;
+   
+}
+
+.btn1 {
+    width: 120px;
+    height: 40px;
+    background-color: #f5a654;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn1:hover{
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    position: relative;
+}
+
+.conversion{
+    color: #F9BC6E;
+}
+
+.vector {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.pan{
+    background-color: blue;
+    top: 20px;
+    height: 20px;
+    position: absolute;
+}
