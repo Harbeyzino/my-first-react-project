@@ -6,7 +6,7 @@ export default function BlogHero() {
     <div className="wrapper1">
         <div className="content">
             <h1>DaPixel Blog</h1>
-            <p className="para">Digital Marketing Article</p>
+            <p className="para">Digital Marketing Articles</p>
         </div>
         <div>
             <img src={image} className="blog-image"/>
