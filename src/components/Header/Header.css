@@ -14,12 +14,6 @@
     font-weight: 200px;
 }
 
-.menu a{
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-
-}
 
 .btn {
     background-color: white;
@@ -33,4 +27,28 @@
 img {
     width: 200px;
     height: 30px;
+}
+
+.menu a {
+    position: relative; /* Set position relative for the link */
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden; /* Hide overflow to prevent line from showing */
+}
+
+.menu a::after {
+    content: ""; /* Create an empty pseudo-element */
+    position: absolute;
+    left: 50%; /* Start from the center */
+    bottom: 0; /* Position it at the bottom of the link */
+    width: 0; /* Initial width is 0 */
+    height: 2px; /* Set the height of the underline */
+    background-color: #f5a654; /* Color of the underline */
+    transition: width 1s ease, left 1s ease; /* Smooth transition */
+}
+
+.menu a:hover::after {
+    width: 100%; /* Expand the width to full */
+    left: 0; /* Move the line to start from the left */
 }

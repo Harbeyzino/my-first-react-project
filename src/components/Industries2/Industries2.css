@@ -1,0 +1,61 @@
+.industries-section {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: -60px;
+  }
+  
+  .industries-section h2 {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+  }
+  
+  .cards-container09 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .card09 {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card09:hover {
+    transform: translateY(-50px);
+    box-shadow: -5px 25px 8px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+  }
+  
+  .card09 img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .card09 h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card09 p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .card09 {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  

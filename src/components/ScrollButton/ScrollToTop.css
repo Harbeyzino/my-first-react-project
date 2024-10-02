@@ -3,7 +3,7 @@
     bottom: 40px;
     right: 40px;
     padding: 10px 20px;
-    background-color: #2c3fec;
+    background-color: #b67d41bd;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -13,7 +13,7 @@
   }
   
   .scrollButton:hover {
-    background-color: #b67d41bd;
+    background-color: gray;
   }
   
   .Scroll {
